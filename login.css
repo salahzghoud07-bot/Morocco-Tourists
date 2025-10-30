@@ -10,9 +10,6 @@
     z-index: -1;
     filter: blur(10px);
 }
-#content{
-    margin-top: 250px;
-}
 h5{
     margin-left: 50px;
 }
@@ -25,4 +22,5 @@ legend{
 fieldset{
     margin-left: 500px;
     margin-right: 500px;
+    margin-top: 250px;
 }
