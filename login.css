@@ -8,17 +8,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: local;
     z-index: -1;
     filter: blur(10px);
-}
-@media screen {
-  .background {
-    background-image: url('hssn2.jpg');
-    background-size: contain;
-    background-position: center bottom;
-    background-attachment: scroll;
-  }
 }
 h5{
     margin-left: 50px;
