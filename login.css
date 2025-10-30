@@ -12,7 +12,7 @@
     z-index: -1;
     filter: blur(10px);
 }
-@media screen and (max-width: 768px) {
+@media screen {
   .background {
     background-image: url('hssn2.jpg');
     background-size: contain;
