@@ -9,7 +9,6 @@
     background-size: cover;
     z-index: -1;
     filter: blur(10px);
-    background-position: center center;
 }
 #transition1{
     width: 100px;
@@ -37,5 +36,5 @@
     display: flex;
 }
 .inline li {
-    margin-right: 4em;
+    margin-right: 3em;
 }
