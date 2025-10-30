@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <meta name="author" content="EST students">
+    <meta name="description" content="Morocco tourists login page">
+    <link rel="icon" href="login.png">
+    <meta http-equiv="refresh" content="300">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div style="text-align: center;">
-    <h1>Login</h1>
-    <form action="/login" method="post">
-        <label for="username">Username or Email:</label><br>
-        <input type="text" id="username" name="username" required><br><br>
+    <div class="background"></div>
+    <div id="content" style="text-align: center;">
+        <fieldset>
+          <legend><h2><u>Login</u></h2></legend>
+          <br><br>
+          <form action="/login" method="post">
+          <label for="username">Username or Email:</label><br>
+          <input type="text" id="username" name="username" required><br><br>
         
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" required><br><br>
-        
-        <input type="submit" value="Login">
-    </form>
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" required>
+          <h5><a href="link">Forgot password?</a></h5><br>
+          
+          <input type="submit" value="Login" style="color: blue; font-size: small;">
+          </form>
+          <br>
+        </fieldset>
     </div>
 </body>
 </html>
