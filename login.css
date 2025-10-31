@@ -17,6 +17,7 @@
 }
 #hh{
     margin-bottom: 10px;
+    color: blue;
 }
 legend{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -24,6 +25,9 @@ legend{
     text-align: center;
     font-size: large;
 }
-fieldset{
-    margin-top: 250px;
+#content{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-size: large;
 }
