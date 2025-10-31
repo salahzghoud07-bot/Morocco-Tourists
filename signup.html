@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="signup.css">
+    <meta name="author" content="EST students">
+    <meta name="description" content="Morocco tourists sign up page">
+    <link rel="icon" href="signup.png">
+    <meta http-equiv="refresh" content="300">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <fieldset>
+        <legend><u><h1>Sign Up</h1></u></legend>
+        <br>
+        <form action="/submit" method="post">
+            <label for="fullname" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+        
+            <label for="email" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label for="password" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+        
+            <label for="confirm_password" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Confirm Password:</label><br>
+            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+        
+            <label for="phone" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+          
+            <label for="dob" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br><br>
+        
+            <label style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="city" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">City:</label><br>
+            <input type="text" id="city" name="city"><br><br>
+          
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">I agree to the Terms and Conditions</label><br><br>
+            <br>
+            <input type="submit" value="Sign Up" style="color: blue; font-size: smaller;">
+            <br>
+            <br><br>
+        </form>
+        </fieldset>
+    </div>
+</body>
+</html>
